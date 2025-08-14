@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Expert Portfolio - Boost Your Rankings in 90 Days</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    primary: '#2563EB',
+                    secondary: '#10B981',
+                    accent: '#F59E0B',
+                    background: '#F8FAFC',
+                    textDark: '#1E293B',
+                    textMedium: '#64748B'
+                },
+                fontFamily: {
+                    'inter': ['Inter', 'system-ui', 'sans-serif']
+                }
+            }
+        }
+    };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-background font-inter text-textDark">
+
+    <!-- Sticky Navigation -->
+    <nav class="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="text-xl font-bold text-primary">SEOExpert</div>
+                </div>
+                
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-textDark hover:text-primary transition-colors">Home</a>
+                        <a href="#services" class="text-textDark hover:text-primary transition-colors">Services</a>
+                        <a href="#portfolio" class="text-textDark hover:text-primary transition-colors">Portfolio</a>
+                        <a href="#about" class="text-textDark hover:text-primary transition-colors">About</a>
+                        <a href="#testimonials" class="text-textDark hover:text-primary transition-colors">Testimonials</a>
+                        <a href="#contact" class="bg-primary text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">Get Free Audit</a>
+                    </div>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-textDark hover:text-primary">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-gradient-to-br from-primary to-blue-700 text-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 py-20 lg:py-32">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
+                        Boost Your Rankings in <span class="text-accent">90 Days</span>
+                    </h1>
+                    <p class="text-xl mb-8 text-blue-100">
+                        Proven SEO strategies that have generated over $2.5M in organic traffic value for 50+ businesses. Get data-driven results, not promises.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-accent text-white px-8 py-4 rounded-lg font-semibold hover:bg-yellow-500 transition-colors flex items-center justify-center">
+                            <i class="fas fa-search mr-2"></i>
+                            Get Free SEO Audit
+                        </button>
+                        <button class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors">
+                            View Case Studies
+                        </button>
+                    </div>
+                    
+                    <!-- Trust Indicators -->
+                    <div class="mt-12 pt-8 border-t border-blue-600">
+                        <p class="text-sm text-blue-200 mb-4">Trusted by industry leaders:</p>
+                        <div class="flex flex-wrap gap-6 opacity-80">
+                            <div class="text-white font-semibold">TechCorp</div>
+                            <div class="text-white font-semibold">GrowthCo</div>
+                            <div class="text-white font-semibold">ScaleUp Inc</div>
+                            <div class="text-white font-semibold">MarketPro</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <!-- Professional SEO dashboard mockup image -->
+                    <!-- A professional SEO expert analyzing growth charts on multiple monitors in a modern office -->
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="SEO professional analyzing growth data" class="rounded-xl shadow-2xl">
+                    
+                    <!-- Floating metrics cards -->
+                    <div class="absolute -top-4 -left-4 bg-white rounded-lg p-4 shadow-xl">
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-secondary rounded-full mr-2"></div>
+                            <div>
+                                <div class="text-textDark font-semibold">+247%</div>
+                                <div class="text-xs text-textMedium">Organic Traffic</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="absolute -bottom-4 -right-4 bg-white rounded-lg p-4 shadow-xl">
+                        <div class="flex items-center">
+                            <div class="w-3 h-3 bg-accent rounded-full mr-2"></div>
+                            <div>
+                                <div class="text-textDark font-semibold">#1 Ranking</div>
+                                <div class="text-xs text-textMedium">Keywords</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Complete SEO Services</h2>
+                <p class="text-xl text-textMedium max-w-3xl mx-auto">
+                    From technical audits to content optimization, I provide comprehensive SEO solutions that drive measurable results for your business.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-background p-8 rounded-xl hover:shadow-lg transition-shadow border border-gray-100 group">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-cogs text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Technical SEO</h3>
+                    <p class="text-textMedium">Site speed optimization, crawlability, mobile-first indexing, and technical foundation fixes.</p>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="bg-background p-8 rounded-xl hover:shadow-lg transition-shadow border border-gray-100 group">
+                    <div class="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-edit text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">On-Page SEO</h3>
+                    <p class="text-textMedium">Content optimization, keyword targeting, meta tags, and internal linking strategies.</p>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="bg-background p-8 rounded-xl hover:shadow-lg transition-shadow border border-gray-100 group">
+                    <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-link text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Off-Page SEO</h3>
+                    <p class="text-textMedium">Link building campaigns, digital PR, and authority building strategies.</p>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="bg-background p-8 rounded-xl hover:shadow-lg transition-shadow border border-gray-100 group">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-chart-line text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">SEO Audits</h3>
+                    <p class="text-textMedium">Comprehensive site analysis with actionable recommendations and priority roadmaps.</p>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="bg-background p-8 rounded-xl hover:shadow-lg transition-shadow border border-gray-100 group">
+                    <div class="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Local SEO</h3>
+                    <p class="text-textMedium">Google My Business optimization, local citations, and geo-targeted ranking strategies.</p>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="bg-background p-8 rounded-xl hover:shadow-lg transition-shadow border border-gray-100 group">
+                    <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-key text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Keyword Research</h3>
+                    <p class="text-textMedium">Strategic keyword analysis, search intent mapping, and competitor gap analysis.</p>
+                </div>
+
+                <!-- Service Card 7 -->
+                <div class="bg-background p-8 rounded-xl hover:shadow-lg transition-shadow border border-gray-100 group">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-pen-fancy text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Content SEO</h3>
+                    <p class="text-textMedium">SEO-optimized content creation, content gap analysis, and editorial calendar planning.</p>
+                </div>
+
+                <!-- Service Card 8 -->
+                <div class="bg-background p-8 rounded-xl hover:shadow-lg transition-shadow border border-gray-100 group">
+                    <div class="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-analytics text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Analytics & Reporting</h3>
+                    <p class="text-textMedium">Performance tracking, ROI measurement, and detailed monthly progress reports.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio/Case Studies Section -->
+    <section id="portfolio" class="py-20 bg-background">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Proven Results</h2>
+                <p class="text-xl text-textMedium max-w-3xl mx-auto">
+                    Real case studies with measurable outcomes. See how I've helped businesses achieve significant organic growth.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Case Study 1 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-store text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold">E-commerce Fashion Store</h3>
+                                <p class="text-textMedium">90-day SEO transformation</p>
+                            </div>
+                        </div>
+
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-lg mb-2">Problem</h4>
+                            <p class="text-textMedium mb-4">New e-commerce site with zero organic visibility, poor technical foundation, and no content strategy.</p>
+                            
+                            <h4 class="font-semibold text-lg mb-2">Solution</h4>
+                            <p class="text-textMedium mb-4">Comprehensive technical SEO overhaul, keyword-optimized product pages, and strategic content marketing.</p>
+                            
+                            <h4 class="font-semibold text-lg mb-2">Results</h4>
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-secondary">+340%</div>
+                                    <div class="text-sm text-textMedium">Organic Traffic</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-accent">+180%</div>
+                                    <div class="text-sm text-textMedium">Revenue</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-primary">1,200+</div>
+                                    <div class="text-sm text-textMedium">Keywords</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chart visualization placeholder -->
+                        <div class="bg-background p-6 rounded-lg">
+                            <!-- Business growth chart showing upward trend -->
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Business growth analytics chart" class="w-full h-32 object-cover rounded">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 2 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-briefcase text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold">B2B SaaS Company</h3>
+                                <p class="text-textMedium">6-month growth strategy</p>
+                            </div>
+                        </div>
+
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-lg mb-2">Problem</h4>
+                            <p class="text-textMedium mb-4">Competitive market with established players, low domain authority, and limited organic leads.</p>
+                            
+                            <h4 class="font-semibold text-lg mb-2">Solution</h4>
+                            <p class="text-textMedium mb-4">Authority building campaign, technical SEO improvements, and targeted content hub development.</p>
+                            
+                            <h4 class="font-semibold text-lg mb-2">Results</h4>
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-secondary">+520%</div>
+                                    <div class="text-sm text-textMedium">Organic Leads</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-accent">+280%</div>
+                                    <div class="text-sm text-textMedium">Page 1 Rankings</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-primary">85%</div>
+                                    <div class="text-sm text-textMedium">Lead Quality</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chart visualization placeholder -->
+                        <div class="bg-background p-6 rounded-lg">
+                            <!-- SaaS growth metrics dashboard -->
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="SaaS analytics dashboard showing growth" class="w-full h-32 object-cover rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="text-center mt-12">
+                <button class="bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                    View All Case Studies
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <!-- Professional headshot of SEO consultant -->
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600" alt="SEO Expert Professional Photo" class="rounded-xl shadow-lg w-full max-w-md mx-auto">
+                </div>
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Meet Your SEO Expert</h2>
+                    <p class="text-lg text-textMedium mb-6">
+                        With 3+ years of specialized SEO experience, I've helped over 50 businesses achieve sustainable organic growth. My data-driven approach combines technical expertise with strategic thinking to deliver measurable results.
+                    </p>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-secondary mr-3"></i>
+                            <span>Google Analytics Certified Professional</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-secondary mr-3"></i>
+                            <span>SEMrush SEO Toolkit Certified</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-secondary mr-3"></i>
+                            <span>Google Search Console Expert</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-secondary mr-3"></i>
+                            <span>Technical SEO Specialist</span>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div>
+                        <h3 class="text-lg font-semibold mb-4">Certifications & Tools</h3>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="bg-background px-4 py-2 rounded-lg border border-gray-200">
+                                <i class="fab fa-google text-primary mr-2"></i>
+                                Google Analytics
+                            </div>
+                            <div class="bg-background px-4 py-2 rounded-lg border border-gray-200">
+                                <i class="fas fa-chart-bar text-accent mr-2"></i>
+                                SEMrush
+                            </div>
+                            <div class="bg-background px-4 py-2 rounded-lg border border-gray-200">
+                                <i class="fas fa-search text-secondary mr-2"></i>
+                                Ahrefs
+                            </div>
+                            <div class="bg-background px-4 py-2 rounded-lg border border-gray-200">
+                                <i class="fas fa-tools text-primary mr-2"></i>
+                                Screaming Frog
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-background">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Client Success Stories</h2>
+                <p class="text-xl text-textMedium max-w-3xl mx-auto">
+                    See what business owners say about working with me and the results they've achieved.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-6">
+                        <!-- Client testimonial photo -->
+                        <img src="https://pixabay.com/get/ga1351db6dcf9ba5bb4c35d86915c710d81c3d8b9a9dcc9814c7d0991e0f72a5369a32ea3a183021930938daaff5c48ddf9ed03807ad852069f11a626820f3751_1280.jpg" alt="Sarah Johnson testimonial" class="w-12 h-12 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-semibold">Sarah Johnson</h4>
+                            <p class="text-textMedium text-sm">CEO, TechStartup</p>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex text-accent mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-textMedium">
+                            "Our organic traffic increased by 300% in just 4 months. The detailed strategy and consistent execution made all the difference."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-6">
+                        <!-- Business professional testimonial -->
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150" alt="Mike Chen testimonial" class="w-12 h-12 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-semibold">Mike Chen</h4>
+                            <p class="text-textMedium text-sm">Founder, GrowthCo</p>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex text-accent mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-textMedium">
+                            "Finally found an SEO expert who delivers what they promise. Our lead quality improved dramatically with targeted organic traffic."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-6">
+                        <!-- Professional woman testimonial -->
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150" alt="Lisa Rodriguez testimonial" class="w-12 h-12 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="font-semibold">Lisa Rodriguez</h4>
+                            <p class="text-textMedium text-sm">CMO, ScaleUp Inc</p>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex text-accent mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-textMedium">
+                            "The technical SEO audit revealed issues we never knew existed. The improvements led to a 180% increase in organic conversions."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Ready to Boost Your Rankings?</h2>
+                    <p class="text-xl text-textMedium mb-8">
+                        Get a comprehensive SEO audit and strategic roadmap. Let's discuss how I can help your business achieve sustainable organic growth.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-email text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Email</h4>
+                                <p class="text-textMedium">hello@seoexpert.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-phone text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Phone</h4>
+                                <p class="text-textMedium">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-calendar text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Response Time</h4>
+                                <p class="text-textMedium">Within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-background p-8 rounded-xl">
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-textDark mb-2">First Name</label>
+                                <input type="text" id="firstName" name="firstName" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-textDark mb-2">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-textDark mb-2">Email Address</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                        </div>
+                        
+                        <div>
+                            <label for="website" class="block text-sm font-medium text-textDark mb-2">Website URL</label>
+                            <input type="url" id="website" name="website" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label for="service" class="block text-sm font-medium text-textDark mb-2">Service Needed</label>
+                            <select id="service" name="service" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                                <option>SEO Audit</option>
+                                <option>Technical SEO</option>
+                                <option>On-Page SEO</option>
+                                <option>Off-Page SEO</option>
+                                <option>Full SEO Strategy</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-textDark mb-2">Project Details</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Tell me about your SEO goals and challenges..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-primary text-white py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                            Get Free SEO Audit
+                        </button>
+                        
+                        <p class="text-sm text-textMedium text-center">
+                            Free audit includes technical analysis, keyword opportunities, and competitor insights.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-textDark text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="text-xl font-bold mb-4">SEOExpert</div>
+                    <p class="text-gray-400">
+                        Helping businesses achieve sustainable organic growth through data-driven SEO strategies.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Technical SEO</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">On-Page SEO</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Off-Page SEO</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">SEO Audits</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Case Studies</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">SEO Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Free Tools</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 SEOExpert. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handling
+        const contactForm = document.querySelector('form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // TODO: Implement form submission logic, validation, and API integration
+                alert('Thank you for your interest! I will contact you within 24 hours.');
+            });
+        }
+
+        // Mobile menu toggle (placeholder)
+        const mobileMenuButton = document.querySelector('.md\\:hidden button');
+        if (mobileMenuButton) {
+            mobileMenuButton.addEventListener('click', function() {
+                // TODO: Implement mobile menu toggle functionality
+                console.log('Mobile menu toggle clicked');
+            });
+        }
+    })();
+    </script>
+
+</body>
+</html>
