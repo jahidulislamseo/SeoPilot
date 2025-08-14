@@ -1,0 +1,2 @@
+# SeoPilot
+seo project
