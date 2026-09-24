@@ -5,3 +5,6 @@
 
 # SeoPilot
 seo project
+
+## Architectural Overview
+SeoPilot integrates automated audit scanners with real-time reporting pipelines.
